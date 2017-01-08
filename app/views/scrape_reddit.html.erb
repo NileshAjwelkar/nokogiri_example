@@ -1,0 +1,5 @@
+<h1>Reddit's Front Page</h1>
+<% @entriesArray.each do |entry| %>
+  <p><b><%= entry.title %></b></p>
+  <p><%= entry.link %></p>
+<% end %>
